@@ -1,38 +1,8 @@
 # babelute-html-dom-pragmatics
 
-[![Travis branch](https://img.shields.io/travis/nomocas/babelute-html-dom-pragmatics/master.svg)](https://travis-ci.org/nomocas/babelute-html-dom-pragmatics)
-[![bitHound Overall Score](https://www.bithound.io/github/nomocas/babelute-html-dom-pragmatics/badges/score.svg)](https://www.bithound.io/github/nomocas/babelute-html-dom-pragmatics)
-[![npm](https://img.shields.io/npm/v/babelute-html-dom-pragmatics.svg)]()
-[![npm-downloads](https://img.shields.io/npm/dm/babelute-html-dom-pragmatics.svg)]()
-[![licence](https://img.shields.io/npm/l/babelute-html-dom-pragmatics.svg)](https://spdx.org/licenses/MIT)
-[![dependecies](https://img.shields.io/david/nomocas/babelute-html-dom-pragmatics.svg)]()
-[![dev-dependencies](https://img.shields.io/david/dev/nomocas/babelute-html-dom-pragmatics.svg)]()
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+Warning ! Deprecated. 
 
-Simple DOM engine for babelute-html-lexicon.
-
-More for demo on how create a pragmatic engine for a DSL.
-
-## Usage
-
-```
-> yarn i babelute babelute-html-lexicon babelute-html-dom-pragmatics
-```
-
-```javascript
-import htmlLexicon from 'babelute-html-lexicon';
-import 'babelute-html-dom-pragmatics';
-
-const h = htmlLexicon.initializer();
-
-h.section(
-	h.class('my-class')
-	.h1('hello world')
-	.div(h.id('my-id'), 'lorem ipsum...', h.p('...'))
-	.button('fire !', h.click((e) => console.log('bouh', e)))
-)
-.$toDOM(document.getElementById('...'));
-```
+Use [htsl-dom-pragmatics](https://github.com/nomocas/htsl-dom-pragmatics) in place.
 
 ## Licence
 
